@@ -1,0 +1,185 @@
+body{
+    margin-left: 80px;
+}
+/* nav section starts here */
+.nav-bar{
+    margin-top:52px ;
+    display: flex;
+    justify-content: space-between;
+    width: 1170px;
+    margin-bottom: 50px
+}
+.nav-headings{
+    display: flex;
+    gap: 17px;
+    height: 45px;
+    align-items: center;
+   
+}
+h1{
+    
+font-family: Mulish;
+font-size: 36px;
+font-weight: 800;
+}
+span{
+    color: #FF5400;
+}
+.nav-text{
+    display: flex;
+    list-style: none;
+    color: #424247;
+    text-align: center;
+    align-items: center;
+    font-family: Mulish;
+    font-size: 18px;
+   
+}
+li{
+    margin-left: 44px;
+}
+/* rectangfle-2 section starts here */
+.rectangle-2{
+    position: absolute;
+  width: 1170px;
+    height: 500px;
+    border-radius: 16px;
+    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%) , url(../Images/Group\ 13\ \(1\)\ \(1\).png);
+  z-index: 1;
+}        
+.rectangle-2 h1{
+    position: relative;
+text-align: center;
+color: #FFF;
+font-family: Mulish;
+font-size: 64px;
+font-weight: 800;
+top: 50px;
+
+}                                                                                                                                                    .rectangle-2 h6{
+   padding: 23px;
+    color: #FFF;
+text-align: center;
+font-family: Mulish;
+font-size: 16px;
+font-weight: 400;
+}                                                                               
+.frame-1 {
+    position: relative;
+    display: flex;
+    width: 800px;
+    height: 84px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+    z-index:2;
+   top: 310px;
+  left: 185px;
+  gap: 24px;
+}
+.card{
+
+    background-color: #FFF;
+    display: flex;
+    width: 174px;
+height: 52px;
+justify-content: space-around;
+align-items: center;
+color: rgba(19, 19, 24, 0.50);
+font-family: Mulish;
+font-size: 16px;
+margin: 16px;
+font-weight: 400;
+border-radius: 8px
+}
+.frame-1 button{
+color: #FFF;
+background: #FF5400;
+border: none;
+}
+
+/* rectangle-3 starts here */
+
+.rectangle-3 
+{
+
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    top: 650px;
+    margin-top:80px;
+    width: 1200px;
+}
+.rectangle-3 h6{
+color: rgba(19, 19, 24, 0.70);
+font-family: Mulish;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px; 
+
+}
+.rectangle-3 li{
+color: rgba(19, 19, 24, 0.70);
+font-family: Mulish;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px; 
+margin-left: 0
+}
+.rectangle-3-heading{
+
+  margin: 0;
+  padding: 0;
+}
+.rectangle-3 button{
+color: #FFF;
+text-align: center;
+font-family: Mulish;
+font-size: 20px;
+font-weight: 800;
+padding: 14px 34px;
+border-radius: 8px;
+background: #FF5400;
+}
+/* 3rd setion starts here */
+.third-section{ 
+text-align: center;
+position: absolute;
+top: 1500px;
+width: 1210px;
+
+}
+.third-section img{
+   
+    margin: 12px;
+    position: relative;
+    z-index: 1;
+
+}
+.third-section h2{
+    position: absolute;
+    text-align: center;
+ z-index: 2;
+}
+/* 3rd setion ends here */
+
+/* fourth setion starts here */
+.fourth-section{
+    width: 1200px;
+    position: relative;
+    top: 2500px;
+    text-align: center;
+font-family: Mulish;
+font-size: 40px;
+
+font-weight: 800;
+
+}
+.fourth-section h6{
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+  
+}
